@@ -87,7 +87,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true,useUnifiedTopology: 
                 }
                 console.log(c);
                 //ignoring background noise
-                let y = omit(c, ['growl']);
+                let y = omit(c, ['background']);
 
                 //current time, in case MongoDB time format sucks.
                 let currentTime = getCurrentTime();
