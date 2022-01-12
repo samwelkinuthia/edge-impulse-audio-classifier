@@ -3,3 +3,4 @@
 package-lock.json
 modelfile.eim
 config.env
+.env
